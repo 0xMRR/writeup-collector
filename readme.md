@@ -15,4 +15,4 @@ pip install -r requirements.txt
 python3 main.py
 ```
 
-| If you want to run it, such as scheduled tasks. customize the [jobs.py](./jobs.py) file and execute it.
+> If you want to run it, such as scheduled tasks. customize the [jobs.py](./jobs.py) file and execute it.
