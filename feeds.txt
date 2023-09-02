@@ -1,15 +1,10 @@
 https://medium.com/feed/tag/application-security
-https://medium.com/feed/tag/hacking
 https://medium.com/feed/tag/infosec
 https://medium.com/feed/tag/cybersecurity
-https://medium.com/feed/tag/ctf
 https://medium.com/feed/tag/penetration-testing
-https://medium.com/feed/tag/writeup
 https://medium.com/feed/tag/tryhackme
 https://medium.com/feed/tag/vulnhub
-https://medium.com/feed/tag/bug-hunte
 https://medium.com/feed/tag/bug-bounty
-https://medium.com/feed/tag/info-sec-writeups
 https://medium.com/feed/tag/hackthebox-writeup
 https://medium.com/feed/tag/ethical-hacking
 https://medium.com/feed/tag/api-security
