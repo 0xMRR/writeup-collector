@@ -32,7 +32,11 @@ def main():
 
         for item in feed_content.entries:
 
-            feed_data = data_extractor(item)
+            try:
+                feed_data = data_extractor(item)
+            except Exception:
+                continue
+
             is_exist = None
 
             if feed_data is None:
@@ -86,6 +90,9 @@ def data_extractor(item):
             thumbnail_url = None
             description = ''
 
+        if not item.author:
+            item.author = None
+
     return [item.id, item.title, item.link, item.author, item.date,
             author_image, thumbnail_url, description]
 
@@ -110,7 +117,7 @@ def discord_message_sender(title, link, author_name, author_image,
         url=link,
         description=description
     )
-    if author_image:
+    if author_name and author_image:
         discord_embed.set_author(
             name=author_name,
             icon_url=author_image
